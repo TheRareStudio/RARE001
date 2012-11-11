@@ -1,0 +1,38 @@
+@import url(http://reset5.googlecode.com/hg/reset.min.css);
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	line-height: 36px;
+	height: 656px;
+}
+
+#st-accordion {
+	width:60%;
+}
+
+#st-accordion li{
+	cursor: pointer;
+	font-weight:bold;
+	color:#015287;
+	margin-bottom:2px;
+	padding: 4px 8px;
+	clear: both;
+}
+
+#st-accordion li p{
+	color: black;
+	padding:0;
+	float: right;
+	width: 65%;
+	height:	317px;
+	overflow: auto;
+}
+
+#st-accordion li img {
+	float: left;
+}
+
+.inside-content {
+	padding: 10px 0;
+}
